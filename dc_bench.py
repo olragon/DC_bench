@@ -118,7 +118,7 @@ def main(dcs, ping_time, download_size):
 	parser.add_argument('-f', '--file', type=str, nargs='+',
 											help='file location to test download, if you want to ping benchmark, so -i must be used to indicate which host associate with it')
 	args = vars(parser.parse_args())
-	print args
+
 	# Handle customize ip and/or file download
 	_dcs = {}
 	if args['method'] == 'ping':

@@ -3,6 +3,6 @@
 
 ## Usage ##
 - `dc_bench.py`
-  Command default will benchmark all Linode's datacenters
+  Use command without argument will benchmark all Linode's datacenters
 - `dc_bench.py -h`
-	For help
+	For more info
