@@ -6,7 +6,7 @@
   Use command without argument will benchmark all Linode's datacenters
 - `dc_bench.py -h`
 	For more info
-	<code>
+	<pre><code>
 	usage: dc_bench.py [-h] [-m {all ,ping ,download}] [-t TIME]
                    [-s SIZE] [-i IP [IP ...]] [-f FILE [FILE ...]]
 
@@ -26,4 +26,4 @@
 		                      file location to test download, if you want to ping
 		                      benchmark, so -i must be used to indicate which host
 		                      associate with it
-	</code>
+	</code></pre>
