@@ -15,12 +15,14 @@ import subprocess, re, urllib2, time, warnings, sys, argparse
 warnings.filterwarnings("ignore") # We don't care
 
 ping_time = '10' # Number of ping time
-download_size = 0.1 # File size in megabyte (MB)
+download_size = 100 # File size in megabyte (MB)
 dcs = {'london1.linode.com': 'http://london1.linode.com/100MB-london.bin',
 			'newark1.linode.com': 'http://newark1.linode.com/100MB-newark.bin',
 			'atlanta1.linode.com': 'http://atlanta1.linode.com/100MB-atlanta.bin',
 			'dallas1.linode.com': 'http://dallas1.linode.com/100MB-dallas.bin',
-			'fremont1.linode.com': 'http://fremont1.linode.com/100MB-fremont.bin'}
+			'fremont1.linode.com': 'http://fremont1.linode.com/100MB-fremont.bin',
+      'tokyo1.linode.com': 'http://tokyo1.linode.com/100MB-tokyo.bin',
+      }
 
 """
 Ping benchmark
